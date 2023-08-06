@@ -1,0 +1,108 @@
+.navbar{
+   padding: 1%;
+    margin-bottom: 0px;
+    background: #1d3124;  
+    color:#f6f4e8;
+    overflow: hidden;
+    position: fixed;
+    height:100%;
+    width:20%;
+}
+p .quote{
+  font-size: 0.5em;
+}
+.name_style{
+    margin-left:20px; 
+    text-decoration: solid;
+}
+.navbar a.name{
+    
+    padding-left: 5px;
+    margin: 3%;
+    color:#f6f4e8;
+    text-decoration: none;
+}
+.navbar .last{   
+    color:#f6f4e8;
+    text-decoration: none;
+    padding :8px 8px 8px 8px;
+    border:1px solid #f6f4e8;
+    border-radius:4px;
+    display: flex; 
+    margin-left:5%;
+    width:70px;
+    
+   
+}
+.last img.invert{
+    filter:invert(100%)
+}
+.navbar .last:hover{
+    background-color: #f6f4e8;
+    color:#333;
+}
+.navbar .last img.invert:hover{
+    filter:invert(20%)
+}
+/* .navbar .label1 {
+  margin-top: -40%;
+} */
+.navbar div.fundFlex{
+  display: flex;
+padding:10px 10px 10px 10px;
+ 
+}
+.label1{
+  color:#f6f4e8;
+padding:20px;
+opacity:0.7;
+}
+.navbar div.healthFlex{
+  display: flex;
+padding:10px 10px 10px 10px;
+ 
+}
+.label2{
+  color:#f6f4e8;
+padding:20px;
+opacity:0.7;
+}
+.navbar .last img.invert:hover + .label {
+  display: inline-block;
+  color: red;
+}
+
+
+  .nav-buttons{
+    cursor: pointer;
+    outline: 0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: white;
+    border-color: white;
+    width:60%;
+    
+    }
+    .nav-buttons:hover {
+      color: black;
+      background-color:#4d836f;
+      border-color: white;
+    }
+  .btn-group{
+    margin-bottom: 50px;
+   margin-top: 50px;
+   display: flex;
+    
+  }
+  img.inverted{
+    filter: invert(100%);
+    width:110%;
+  }
