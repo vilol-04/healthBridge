@@ -15,16 +15,19 @@ fundraising systems hinders support.
 
 **Solution**
 
-Health Bridge: A user-friendly platform for college students to raise funds for medical
+A user-friendly platform for college students to raise funds for medical
 assistance.
+
 1. Easy Fundraising: Students initiate campaigns via a straightforward form, detailing health
 condition and expenses.
 2. Confidential Data: Data stored securely, only accessible to authorized personnel, ensuring
 donor privacy.
 3. Bridging the Gap: Connecting students in need with compassionate donors, easing their
-financial burden
-Introducing HealthBridge: Empowering college students with
+financial burden.
+
+Empowering college students with
 free mental health support.
+
 1. Free Counseling: Connect with local psychologists through
 audio and video sessions, no cost involved.
 2. User-Friendly Interface: Intuitive live chat and video
@@ -35,6 +38,7 @@ compassionate professionals.
 mental health topics
 
 **Glimpses of our website**
+
 1) Home Page
 ![Screenshot (1)](https://github.com/vilol-04/healthBridge/assets/112319597/d1761c33-4c0d-4c6d-87fd-439d89d148af)
 
