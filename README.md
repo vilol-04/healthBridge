@@ -5,10 +5,13 @@ Then run the project by giving command **npm start**.
 
 Obstacle in Fundraising: College students lack
 suitable platforms for medical expense support.
+
 Ineffectiveness of WhatsApp & Google Forms:
 Urgent pleas may go unnoticed.
+
 Financial Strain: Without aid, coping with health
 challenges becomes difficult.
+
 Limited Assistance: Absence of organized
 fundraising systems hinders support.
 
