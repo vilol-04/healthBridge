@@ -1,0 +1,103 @@
+.fundList{
+  margin-left:10%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:30px;
+    border-color: #1D3124;
+  
+}
+  
+
+
+.fundList .card{
+ 
+  border-radius: 10px;
+  background-color: #f6f4e8;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+  
+}
+.fundList .card .image-content,
+.fundList .card .card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+
+}
+
+.fundList .card .card-content span{
+  color:#E59560;
+}
+.fundList .card .image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.fundList .card .overlay{
+  
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color:#BACEC1;
+  border-radius: 10px;
+}
+.fundList .card.overlay::before,
+.fundList .card .overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #1D3124;
+}
+.fundList .card .overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #f6f4e8;
+}
+.fundList .card .card-image{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: #1D3124;
+  padding: 3px;
+}
+.fundList .card .card-content p{
+   text-align: center;
+   font-weight: bolder;
+   color: black;
+}
+.fundList .card .card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #1D3124;
+}
+.fundList .card .name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.fundList .card .description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.fundList .card .button{
+  border: none;
+  font-size: 16px;
+  color: #f6f4e8;
+  padding: 8px 16px;
+  background-color: #1D3124;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.fundList .card .button:hover{
+  background: #BACEC1;
+}

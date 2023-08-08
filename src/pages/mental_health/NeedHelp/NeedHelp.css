@@ -1,0 +1,41 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+  
+    box-sizing: border-box;
+    
+  }
+ 
+  .need_help button{
+    background-color: #da6335;
+  }
+
+.card-body{
+    width:70%;
+   margin-left: 2%;
+    margin-right: 10%;
+
+    
+}
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .tags{
+    font-weight: 700;
+  }
+  h2{
+    text-align: center;
+  }
+  .heading h2{
+    font-family: 'Oswald', sans-serif;
+  }
+  .form-psyc{
+    margin-top:-95%;
+  }

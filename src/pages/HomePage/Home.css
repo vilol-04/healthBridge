@@ -1,0 +1,228 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+
+.home{
+    background-color:#f6f4e8;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 75px;
+    background-color: #E59560;
+    justify-content: center;
+    color: #E59560;
+}
+
+.FirstSection{
+    display: flex;
+    justify-content:space-around ;
+    margin: 5px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.LeftSection{
+    font-size: 2rem;
+      margin: 10px 0;
+      color: black;
+  }
+  .FirstSection div{
+    width: 50%;
+}
+
+.name{
+    color:#E59560;
+    font-size: 2.5rem;
+    
+}
+#element{
+    color:#E59560;
+    font-size: 2.6rem;
+    
+}
+
+
+h1{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 35px;
+    background-color: #BACEC1;
+    font-family: 'Poppins', sans-serif;
+}
+.home .container {
+    text-align: center;
+    /* color: var(--color); */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    background-size: cover;
+    background-position: center;
+    
+  /*  this is where the magic happens:  */
+    background-attachment: fixed;
+  }
+  
+  .home h1 {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  
+  .home p {
+    max-width: 52ch;
+    line-height: 1.5;
+    padding: 1em;
+  }
+  
+  .home a {
+    display: inline-block;
+    padding: 1em 3.5em;
+    background-color: var(--color);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: .875rem;
+  }
+  
+  .home .blank,
+  .home .other {
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(--color);
+  }
+  
+ .second {
+    background-image:url('https://www.apple.com/newsroom/images/values/health/Apple-Health-study-July-2022-hero_big.jpg.large.jpg');
+    background-attachment: fixed;
+    height: 1200px;
+
+  
+    background-size: cover;
+    background-position: center;
+
+  
+  }
+  
+  .home h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1em;
+  }
+  
+  .home .card > a {
+    margin-bottom: 2em;
+  }
+  
+  .home .item {
+   display: flex;
+    width: 300px;
+    height:360px;
+    background-color: white;;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  }
+  
+  .home .img {
+    width: 200px;
+    height: 200px;
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: .3em;;
+  }
+  .home .container .item .img img{
+    height:150px;
+    width:150px;
+  }
+  .home .img-first {
+    background-image: url(https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1606&q=80);
+  }
+  
+  .home .img-second {
+    background-image: url(https://images.unsplash.com/photo-1628746404106-4d3843b231b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2F2aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60);
+  }
+  
+  .home .img-third {
+    background-image: url(https://images.unsplash.com/photo-1632853073412-782bf0279d65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  }
+  
+  .home .second {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:40px;
+  
+  }
+.accordian{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+
+}
+.accordian li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordian li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 550;
+
+    
+    background:#E59560 ;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+.home label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+.home input[type="radio"]{
+    display: none;
+}
+.home .accordian .content{
+    background: #E59560;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+    font-size: 15px;
+}
+.home .accordian input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.home .accordian input[type="radio"]:checked + label::after{
+    transform:rotate(135deg);
+}
+.faq h3{
+    font-family: 'Oswald', sans-serif;
+}

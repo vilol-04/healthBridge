@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+ .fundHome{
+  margin-top: -6%;
+  margin-left: -10%;
+padding: 0;
+box-sizing: border-box;
+background-color:#F6F4E8;
+width: 1250px;
+
+}
+.fundHome .raise-funds{
+  display:flex;
+  flex-direction:column;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+}
+.fundHome .raise-funds h3{
+  margin-top: 20px;
+  font-size:40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.fundHome .raise-funds h4{
+font-size:35px;
+color:#174542;
+font-weight: bold;
+}
+.fundHome .raise-funds p{
+  color:#1D3124;
+  font-size: 20px;
+}
+
+
+.fundHome .raise-funds button{
+  
+  /* border-radius: 5px; */
+  text-align: center;
+  color:black;
+  font-weight: bold;
+  width: 45%;
+  height: 5%;
+  --c:  #229091; /* the color*/
+  margin-top: 10%;
+ margin-left: 28%;
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+  
+  
+}
+ .raisefund{
+  background-color: #F6F4E8;
+ margin-top: 10px;
+}
+
+.fundHome .raise-funds button:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+}
+.fundHome .raise-funds button:active {
+  box-shadow: 0 0 9e9q inset #0009; 
+  background-color: var(--c);
+  color: #fff;
+}
+
+.fundHome .raise-funds button {
+  font-family: system-ui, sans-serif;
+  font-size: 3.5rem;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: none;
+}
+
+
+.quote{
+background: url("https://s3u.tmimgcdn.com/800x0/u11195131/9729a44cc33f2300aa155acbd2bf01d9.jpg");
+height: 700px;
+width:81%;
+padding-top: 15%;
+padding-left: 30%;
+line-height: 1.7;
+margin-left: 10%;
+}
+
+.abt{
+display: grid;
+grid-template-columns: 40% 50%;
+margin-top: 2%;
+margin-left:10%;
+text-align: center;
+
+}
+.info-heading h1{
+  padding-top: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+.info{
+font-weight: 400;
+background-color: #1D3124;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 5px;
+padding-right: 5px;
+color: white;
+border-radius: 5px;
+}
+.quote h3{
+  font-family: 'Oswald', sans-serif;
+}
+.quote .line2{
+  font-size: 20px;
+}

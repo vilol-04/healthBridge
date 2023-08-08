@@ -1,0 +1,41 @@
+.psycologists{     
+    width:800px;
+   font-size:1.5em;
+   height:700px;
+  }
+  .psycologists .card{
+     font-size: 1.2em;
+      background: #f6f4e8;
+      color:#333;
+      padding:20px;
+      border-radius: 4px;
+      box-shadow:3px 3px 3px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+      position:relative;
+    
+     
+  }
+  
+  
+  .psycologists .card h5{
+      
+      color:#333;
+      margin-bottom: 6px;
+  }
+  .psycologists .card p{
+      color:#f6f4e8;
+      font-size: 0.9em;
+  }
+  .psycologists .card div{
+      color: #555;
+      font-size: 0.7em;
+      margin:20px 0;
+      line-height: 1.5em;
+  }
+  @media (max-width: 480px) {
+      .psycologists{
+          font-size: 0.7em;
+      }
+    }
+  
+  

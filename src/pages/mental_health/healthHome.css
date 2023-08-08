@@ -1,0 +1,304 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+.health_home{
+  margin-top: -5%;
+}
+.btn-light{
+  margin:2% auto;
+  width:28%;
+  margin-right: 38%;
+  background-color: #F6F4E8;
+}
+.btn-light:hover{
+  background-color: #bacec1;
+}
+
+.btn-psyc{
+  margin:2% auto;
+  width:70%;
+ 
+  margin-right: 30%;
+  background-color: #F6F4E8;
+  border-color: #1d3124;
+  color:#1d3124;
+  white-space: nowrap;
+  text-align: center;
+  margin-top: 40px;;
+}
+.btn-psyc:hover{
+  background-color: #1d3124;
+  color: white;
+  border-color: white;
+}
+.psyc-text{
+  font-size: 20px;
+  color: black;
+}
+
+.btn-text{
+  font-size: 20px;
+}
+a {
+  color: #e1ddd3;
+  text-decoration: none;
+}
+button.btn-psyc a .btn-text:hover{
+  color:white ;
+}
+
+.health_background{
+    width:170vh;
+    height: 600px;
+    margin-left:-205px;
+    margin-top: -205px;
+}
+
+.fade img{
+  width:80%;
+  margin-left: 10%;
+}
+.fade img:hover{
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.type{
+  display: block;
+  width:100%;
+  margin:0;
+
+}
+.types{
+  padding-top: 2%;
+  padding-bottom: 4%;
+  display: block;
+  width:100%;
+  margin:0;
+  background-color: #bacec1;
+}
+  .psycologists_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+  }
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 280px;
+  border-radius: 5px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  border:3px;
+  border-color: #1d3124;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+
+}
+.flip-card-front img{
+  width: 280px;
+  
+  height: 300px;
+}
+/* Style the back side */
+.flip-card-back {
+  padding: 10px;
+  background-color: #bacec1;
+  color: black;
+  border-radius: 5px;
+  transform: rotateY(180deg);
+
+  
+}
+.flip-card-back p{
+  font-size: 0.9em;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+  h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  p{
+    text-align: center;
+  }
+  .livechat{
+    width: 35vh;
+    height: 30vh;
+    transition: transform .2s;
+  }
+  .livechat:hover{
+    transform: scale(1.05);
+  }
+
+  .video{
+    width: 35vh;
+    height: 30vh;
+    transition: transform .2s;
+  }
+  .video:hover{
+    transform: scale(1.05);
+  }
+  .chatting{
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .viewmore {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1d3124;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    padding: 15px;
+    width: 150px;
+    height:50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 40%;
+  }
+  
+  .viewmore span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .viewmore span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .viewmore:hover span {
+    padding-right: 25px;
+  }
+  
+  .viewmore:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ 
+ .jointeam{
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 50% 40%;
+  
+ }
+
+ p{
+  font-size: 18px;
+  line-height: 1.5;
+ }
+
+.supportgrp{
+  margin-left: 38%;
+ 
+} 
+
+.viewmore-psyc{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #1d3124;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+  padding: 15px;
+  width: 150px;
+  height:50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 20%;
+}
+.viewmore-psyc span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.viewmore-psyc span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.viewmore-psyc:hover span {
+  padding-right: 25px;
+}
+
+.viewmore-psyc:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.type h1{
+  font-family: 'Oswald', sans-serif;
+}
+.social h1{
+  font-family: 'Oswald', sans-serif;
+}
