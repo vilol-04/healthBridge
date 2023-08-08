@@ -1,3 +1,7 @@
+This is the link to our website. It is not responsive so make sure to view on your desktop/laptopn only.
+https://my-app-a871d.web.app
+
+
 First give the command **npm install**.
 Then run the project by giving command **npm start**.
 
